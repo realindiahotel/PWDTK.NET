@@ -18,7 +18,7 @@ Thanks all!
 
 v2.0.0.2
 
-Merged in the GetRandomSaltHexString method provided by Hallmanac, I added a PasswordToHashHexString method to compliment the HEX salt method. A few rectors and tidying up a bit.
+Merged in the GetRandomSaltHexString method provided by Hallmanac, I added a PasswordToHashHexString method to compliment the HEX salt method. A few refactors and tidying up a bit.
 
 v2.0.0.1
 
