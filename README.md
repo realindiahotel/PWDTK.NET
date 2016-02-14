@@ -16,6 +16,10 @@ I can be contacted at thashiznets@yahoo.com.au
 
 Thanks all!
 
+v2.0.0.3
+
+Set target version to .NET 4.6.1.
+
 v2.0.0.2
 
 Merged in the GetRandomSaltHexString method provided by Hallmanac, I added a PasswordToHashHexString method to compliment the HEX salt method. A few refactors and tidying up a bit.
