@@ -1,4 +1,4 @@
-Password Toolkit (PWDTK) v2.0.0.2 for .NET 4.5.1 (And Older .NET Versions)
+Password Toolkit (PWDTK) v2.0.0.3 for .NET 4.6.1 (And Older .NET Versions)
 
 This API makes it easy to create crypto random salt and then hash salt+password via a HMACSHA512 implementation of PBKDF2.
 
