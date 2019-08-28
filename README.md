@@ -35,3 +35,5 @@ v2.0.0.0
 All new hashing functionality using the PBKDF2 spec as outlined here: http://www.ietf.org/rfc/rfc2898.txt
 I implemented an Rfc2898 class which has PBKDF2 functionality using HMACSHA512 as the underlying Pseudo Random Function (PRF) which is better than Microsofts implementation using only HMACSHA1.
 Removed key stretching via encryption as the PBKDF2 spec is performing key stretching by xor'ing multiple Hash outputs instead.
+
+Tips: 1TipMe74AoUSv5JotGutG6zfvjsC6v2SC
