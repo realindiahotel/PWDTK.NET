@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PWDTK_SAMPLE_GUI</RootNamespace>
     <AssemblyName>PWDTK_SAMPLE_GUI</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -82,7 +82,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PWDTK.NET\PWDTK.NET.csproj">
       <Project>{1f3a5d51-98e2-4504-bd71-7ead87bac245}</Project>
-      <Name>PWDTK</Name>
+      <Name>PWDTK.NET</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
