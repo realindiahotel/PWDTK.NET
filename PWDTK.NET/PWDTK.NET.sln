@@ -1,16 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWDTK.NET", "PWDTK.NET\PWDTK.NET.csproj", "{1F3A5D51-98E2-4504-BD71-7EAD87BAC245}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWDTK.NET_SAMPLE_GUI", "PWDTK.NET_SAMPLE_GUI\PWDTK.NET_SAMPLE_GUI.csproj", "{D109D469-AC3B-4890-A203-B03D2EF693E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8386FF1-0065-44E2-9CE0-DD17D3BA7BDE}"
 	ProjectSection(SolutionItems) = preProject
-		Readme.txt = Readme.txt
+		Readme.md = Readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWDTK.NET", "PWDTK.NET\PWDTK.NET.csproj", "{6D46D5DE-BA39-405C-A30A-8C7A94E931A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWDTK.NET_SAMPLE_GUI_CORE", "PWDTK.NET_SAMPLE_GUI_CORE\PWDTK.NET_SAMPLE_GUI_CORE.csproj", "{097C6464-0D27-4DE1-9912-A656B95EE14D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,16 +20,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F3A5D51-98E2-4504-BD71-7EAD87BAC245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F3A5D51-98E2-4504-BD71-7EAD87BAC245}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F3A5D51-98E2-4504-BD71-7EAD87BAC245}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F3A5D51-98E2-4504-BD71-7EAD87BAC245}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D109D469-AC3B-4890-A203-B03D2EF693E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D109D469-AC3B-4890-A203-B03D2EF693E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D109D469-AC3B-4890-A203-B03D2EF693E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D109D469-AC3B-4890-A203-B03D2EF693E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D46D5DE-BA39-405C-A30A-8C7A94E931A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D46D5DE-BA39-405C-A30A-8C7A94E931A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D46D5DE-BA39-405C-A30A-8C7A94E931A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D46D5DE-BA39-405C-A30A-8C7A94E931A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097C6464-0D27-4DE1-9912-A656B95EE14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097C6464-0D27-4DE1-9912-A656B95EE14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097C6464-0D27-4DE1-9912-A656B95EE14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097C6464-0D27-4DE1-9912-A656B95EE14D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2AD2249-BCE0-47C0-AC9A-E987F48942F5}
 	EndGlobalSection
 EndGlobal

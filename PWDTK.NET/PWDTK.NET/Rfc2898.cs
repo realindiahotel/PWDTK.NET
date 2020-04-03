@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace PWDTK_DOTNET451
+namespace PWDTK_DOTNET
 {
     /// <summary>
     /// Implementation of the Rfc2898 PBKDF2 specification located here http://www.ietf.org/rfc/rfc2898.txt using HMACSHA512 as the underlying PRF
