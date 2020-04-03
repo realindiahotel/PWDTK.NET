@@ -1,7 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>3.0.0.0</Version>
+    <PackageVersion>3.0.0.0</PackageVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
+    <InformationalVersion>3.0.0.0</InformationalVersion>
+    <Description>Password Toolkit .NET</Description>
+    <Copyright>Copyright © 2012</Copyright>
     <TargetFrameworks>net35;net40;netstandard20</TargetFrameworks>
+    <AssemblyName>PWDTK.NET</AssemblyName>
+    <PackageId>PWDTK</PackageId>
+    <PackageTags>PWDTK, PWDTK.NET, DOTNET40, DOTNET35, DOTNETSTANDARD20, PBKDF2, HMAC-SHA512, API, .NET, C#, Password, Salt, Toolkit, SHA512, Key, Stretching, RFC2898, Hash, Hashing</PackageTags>
+    <PackageProjectUrl>https://github.com/realindiahotel/PWDTK.NET</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>thashiznets</Company>
     <AssemblyName>PWDTK.NET</AssemblyName>
     <RootNamespace>PWDTK_DOTNET</RootNamespace>
   </PropertyGroup>
