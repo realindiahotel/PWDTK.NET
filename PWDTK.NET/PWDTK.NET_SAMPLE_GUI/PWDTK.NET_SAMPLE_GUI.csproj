@@ -81,8 +81,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PWDTK.NET\PWDTK.NET.csproj">
-      <Project>{1f3a5d51-98e2-4504-bd71-7ead87bac245}</Project>
-      <Name>PWDTK</Name>
+      <Project>{6D46D5DE-BA39-405C-A30A-8C7A94E931A7}</Project>
+      <Name>PWDTK.NET</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

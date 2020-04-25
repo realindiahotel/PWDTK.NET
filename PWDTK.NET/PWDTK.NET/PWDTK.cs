@@ -3,10 +3,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Security;
 using System.Security.Cryptography;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Linq;
 
-namespace PWDTK_DOTNET451
+namespace PWDTK_DOTNET
 {
     /// <summary>
     /// Password Toolkit created by Thashiznets
@@ -231,7 +230,10 @@ namespace PWDTK_DOTNET451
         /// <returns>A HEX String representation of the Hash value</returns>
         public static String HashBytesToHexString(Byte[] hash)
         {
-            return new SoapHexBinary(hash).ToString();
+            var hex = new StringBuilder(hash.Length * 2);
+            foreach (var b in hash)
+                hex.AppendFormat("{0:x2}", b);
+            return hex.ToString();
         }
 
         /// <summary>
@@ -241,7 +243,11 @@ namespace PWDTK_DOTNET451
         /// <returns>Esentially reverses the HashToHexString function, turns the String back into Bytes</returns>
         public static Byte[] HashHexStringToBytes(String hashHexString)
         {
-           return SoapHexBinary.Parse(hashHexString).Value;
+            var numberChars = hashHexString.Length;
+            var bytes = new byte[numberChars / 2];
+            for (var i = 0; i < numberChars; i += 2)
+                bytes[i / 2] = Convert.ToByte(hashHexString.Substring(i, 2), 16);
+            return bytes;
         }
 
         /// <summary>
