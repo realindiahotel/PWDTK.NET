@@ -16,6 +16,10 @@ I can be contacted at thashiznets@yahoo.com.au
 
 Thanks all!
 
+v3.0.0.0
+
+Can be used with .Net Framework 3.5, .Net Framework 4 and up, and .Net Standard 2.0
+
 v2.0.0.3
 
 Set target version to .NET 4.6.1.
